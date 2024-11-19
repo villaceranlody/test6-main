@@ -1,8 +1,8 @@
 <?php
 // Database credentials
 $hostname = "localhost"; // Replace with your database host
-$username = "jenny";      // Replace with your database username
-$password = "jenny";          // Replace with your database password
+$username = "lody";      // Replace with your database username
+$password = "villaceran";          // Replace with your database password
 $database = "students";  // Replace with your database name
 
 // Create a connection
