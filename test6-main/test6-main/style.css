@@ -1,0 +1,161 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Soft pink for background */
+    color: #4a148c; /* Deep purple for text */
+    line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header Styling */
+h1 {
+    color: #ad1457; /* Rich pink for headers */
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+a.btn, button.btn {
+    display: inline-block;
+    padding: 0.6rem 1.4rem;
+    margin: 0.5rem;
+    background-color: #ec407a; /* Vibrant pink for buttons */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+a.btn:hover, button.btn:hover {
+    background-color: #d81b60; /* Deeper pink for hover */
+    transform: translateY(-2px);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+a.btn.delete {
+    background-color: #f8bbd0; /* Light pink for delete buttons */
+}
+
+a.btn.delete:hover {
+    background-color: #f06292; /* Bold pink hover effect */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    animation: scaleIn 1.2s ease;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #f48fb1; /* Soft pink for borders */
+    transition: background-color 0.2s ease-in-out;
+}
+
+table th {
+    background-color: #d81b60; /* Bold pink for headers */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+table td {
+    color: #6a1b9a; /* Purple for content */
+}
+
+table tr:nth-child(even) {
+    background-color: #fce4ec; /* Alternate light pink rows */
+}
+
+table tr:hover {
+    background-color: #f8bbd0; /* Highlighted pink row on hover */
+}
+
+/* Form Styling */
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+    border: 1px solid #f48fb1; /* Subtle pink border */
+    border-radius: 20px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #d81b60; /* Focus border color */
+    box-shadow: 0 0 8px rgba(216, 27, 96, 0.5);
+}
+
+form button {
+    width: 60%;
+    max-width: 300px;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    background-color: #ec407a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #d81b60;
+    transform: translateY(-3px);
+}
+
+/* Header and Footer Styling */
+header, footer {
+    background-color: #d81b60; /* Vibrant pink for header/footer */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.95);
+    }
+    to {
+        transform: scale(1);
+    }
+}
